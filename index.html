@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/logo.png">
+    </link>
+    <title>Homepage - WanderWorld</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Images/logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Our Website</h1>
+        <p>Your gateway to valuable content</p>
+      </div>
+    </section>
+
+    <section class="recent-posts">
+      <h2>Recent Posts</h2>
+      <div class="posts-grid">
+        <!---------------------------------- Repeat this block for each post -------------------------------------------->
+        <div class="post-card">
+          <img src="Images/Post Title 1.jpg" alt="Post Title 1" />
+          <h3>Post Title</h3>
+          <p>Excerpt from the post...</p>
+        </div>
+
+        <div class="post-card">
+          <img src="Images/Post Title 2.jpg" alt="Post Title 2" />
+          <h3>Post Title</h3>
+          <p>Excerpt from the post...</p>
+        </div>
+
+        <div class="post-card">
+          <img src="Images/Post Title 3.jpg" alt="Post Title 3" />
+          <h3>Post Title</h3>
+          <p>Excerpt from the post...</p>
+        </div>
+
+        <div class="post-card">
+          <img src="Images/Post Title 4.jpg" alt="Post Title 4" />
+          <h3>Post Title</h3>
+          <p>Excerpt from the post...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form action="subscribe.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Your Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
